@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sokoban</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="initGame()">
+    <div class="container">
+        <h1>I'm Sokoban</h1>
+        <div class="stats-container">
+            <div class="score stats"></div>
+            <div class="reset stats" onclick="resetGame()">Reset Game</div>
+        </div>
+        <table>
+            <tbody class="game-board"></tbody>
+        </table>
+        <div class="msg stats"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
